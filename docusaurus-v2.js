@@ -2,7 +2,16 @@ new Crawler({
     appId: process.env.APPLICATION_ID,
     apiKey: process.env.ALGOLIA_API_KEY,
     rateLimit: 8,
-    startUrls: ['https://peter-chaudhary.netlify.app/'],
+    startUrls: [
+        {
+            "url": "http://localhost:3000/blog",
+            "tags": "blog",
+            "selectors_key": "blog"
+          },
+    
+          'https://peter-chaudhary.netlify.app/'
+    ],
+
     sitemaps: ['https://peter-chaudhary.netlify.app/sitemap.xml'],
     ignoreCanonicalTo: true,
     discoveryPatterns: ['https://peter-chaudhary.netlify.app/'],
