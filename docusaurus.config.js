@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'peter-chaudhary',
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -58,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'peter-chaudhary',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -132,7 +132,7 @@ const config = {
         appId: "PP53QJUBNQ",
   
         // Public API key: it is safe to commit it
-        apiKey:'0c46e52ace8204346bff8a7f3c53b4a3' ,
+        apiKey:'f8e78304b895491da05d461ca930a4ba' ,
   
         indexName: 'peter',
   
