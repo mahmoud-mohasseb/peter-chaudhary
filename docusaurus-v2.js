@@ -1,6 +1,6 @@
 new Crawler({
-    appId: 'DFADYO9OQ1',
-    apiKey: '91653f8207e4ab5d5a162ad4ee0c524f',
+    appId: process.env.APPLICATION_ID,
+    apiKey: process.env.ALGOLIA_API_KEY,
     rateLimit: 8,
     startUrls: ['https://peter-chaudhary.netlify.app/'],
     sitemaps: ['https://peter-chaudhary.netlify.app/sitemap.xml'],
