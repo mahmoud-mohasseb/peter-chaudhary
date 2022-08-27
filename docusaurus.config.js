@@ -129,10 +129,10 @@ const config = {
       },
       algolia: {
         // The application ID provided by Algolia
-        appId: process.env.ALGOLIA_APPID,
+        appId: "PP53QJUBNQ",
   
         // Public API key: it is safe to commit it
-        apiKey:process.env.ALGOLIA_API_KEY ,
+        apiKey:'0c46e52ace8204346bff8a7f3c53b4a3' ,
   
         indexName: 'peter',
   
@@ -144,7 +144,7 @@ const config = {
   
         // Optional: Algolia search parameters
         searchParameters: {
-          
+          facetFilters: ['language:en', ['filter1', 'filter2'], 'filter3'],
         },
   
         // Optional: path for search page that enabled by default (`false` to disable it)
