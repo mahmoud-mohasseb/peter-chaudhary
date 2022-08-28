@@ -60,7 +60,7 @@ const config = {
       navbar: {
         title: 'peter-chaudhary',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Peter',
           src: 'img/logo.svg',
         },
         items: [
@@ -140,7 +140,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      themes: ['@docusaurus/theme-search-algolia'],
+      // themes: ['@docusaurus/theme-search-algolia'],
       
     }),
   
