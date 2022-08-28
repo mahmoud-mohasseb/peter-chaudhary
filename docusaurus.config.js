@@ -65,6 +65,9 @@ const config = {
         },
         items: [
           {
+            type: 'localeDropdown',
+          },  
+          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
