@@ -1,9 +1,8 @@
 {
-    "label": "Versiong - update",
-    "position": 2,
-    "link": {
-      "type": "generated-index",
-      "description": "Versiong in 5 Docusaurus concepts."
-    }
+  "label": "Versiong",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Versiong in 5 Docusaurus concepts."
   }
-  
+}

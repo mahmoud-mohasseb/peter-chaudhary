@@ -115,8 +115,15 @@ const config = {
           src: "https://cdn.dribbble.com/users/60166/screenshots/17217488/media/02728f99e977931182d683b6792a17b1.jpg?compress=1&resize=400x300",
           srcDark:
             "https://cdn.dribbble.com/users/60166/screenshots/17217488/media/02728f99e977931182d683b6792a17b1.jpg?compress=1&resize=400x300",
-          alt: "Peter_chaudhary",
-          height: "36px",
+          alt: "",
+          // height: 48,
+          width: 48,
+          style: {
+            display: "flex",
+            // marginBottom: 70,
+            borderRadius: 20,
+            // marginTop: 0,
+          },
         },
         links: [
           {
@@ -159,7 +166,8 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Peter-chaudhary.`,
+
+        copyright: `Copyright © ${new Date().getFullYear()} Peter-chaudhary, Inc.  All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
