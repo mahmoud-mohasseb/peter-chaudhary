@@ -12,7 +12,8 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
-  favicon: 'img/favicon.ico',
+  // favicon: 'img/favicon.ico',
+  favicon:'https://cdn.dribbble.com/users/60166/screenshots/17217488/media/02728f99e977931182d683b6792a17b1.jpg?compress=1&resize=400x300',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -25,6 +26,10 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'hi'],
+    localeConfigs: {
+      en: { label: 'English' },
+      hi: { label: 'हिन्दी' },
+    },
   },
 
   presets: [
@@ -63,11 +68,19 @@ const config = {
           alt: 'Peter',
           // src: 'img/logo.svg',
           src: 'https://cdn.dribbble.com/users/60166/screenshots/17217488/media/02728f99e977931182d683b6792a17b1.jpg?compress=1&resize=400x300',
+          // srcDark: `/logos/`,
+          href: '/',
+          target: '_self',
+          width: 35,
+          height: 25,
         },
+      
         items: [
           {
             type: 'localeDropdown',
-            position:"right"
+            position: "right",
+            dropdownItemsBefore: [],
+            className: 'icon-link language navbar__item',
           },  
           {
             type: 'doc',
@@ -75,12 +88,13 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+       
           {
             type: 'search',
             position: 'right',
           },
-       
-          {to: '/blog', label: 'Blog', position: 'left'},
+     
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
