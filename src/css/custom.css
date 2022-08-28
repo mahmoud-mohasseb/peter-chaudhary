@@ -3,6 +3,7 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+ @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Pacifico&family=Press+Start+2P&family=Roboto+Condensed:ital,wght@1,700&family=Sacramento&family=Stick+No+Bills:wght@200&display=swap');
 
 /* You can override the default Infima variables here. */
 :root {

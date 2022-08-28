@@ -58,10 +58,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'peter-chaudhary',
+        // title: 'peter-chaudhary',
         logo: {
           alt: 'Peter',
-          src: 'img/logo.svg',
+          // src: 'img/logo.svg',
+          src: 'https://cdn.dribbble.com/users/60166/screenshots/17217488/media/02728f99e977931182d683b6792a17b1.jpg?compress=1&resize=400x300',
         },
         items: [
           {
