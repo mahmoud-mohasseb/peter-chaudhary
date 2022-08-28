@@ -1,4 +1,0 @@
-# Algolia-Crawler-Verif: F021591C3E14D5C6
-User-agent: *
-Allow: /
-Sitemap: https://peter-chaudhary.netlify.app/sitemap.xml

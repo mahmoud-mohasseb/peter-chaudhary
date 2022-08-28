@@ -19,12 +19,12 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  // Even if you don't use internalization, you can use this field to set useful
+  // Even if you don't use internalization, you can uose this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en','hi'],
   },
 
   presets: [
@@ -70,10 +70,20 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+          {
+            type: 'search',
+            position: 'right',
+          },
+       
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/mahmoud-mohasseb/peter-chaudhary',
+            className: 'pseudo-icon github-icon',
             position: 'right',
           },
         ],
@@ -127,33 +137,10 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      algolia: {
-        // The application ID provided by Algolia
-        appId: "PP53QJUBNQ",
-  
-        // Public API key: it is safe to commit it
-        apiKey:'f8e78304b895491da05d461ca930a4ba' ,
-  
-        indexName: 'peter',
-  
-        // Optional: see doc section below
-        contextualSearch: true,
-  
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'external\\.com|domain\\.com',
-  
-        // Optional: Algolia search parameters
-        searchParameters: {
-          facetFilters: ['language:en', ['filter1', 'filter2'], 'filter3'],
-        },
-  
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
-  
-        //... other Algolia params
-      },
+      themes: ['@docusaurus/theme-search-algolia'],
       
     }),
+  
 };
 
 module.exports = config;
