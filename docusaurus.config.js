@@ -62,7 +62,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 
-    ({
+    {
       // algolia: {
       //   appId: "JP2Q0HN2DE",
       //   apiKey: "67f1a7e15197ecf88d4c85f39a2e1789",
@@ -242,7 +242,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       // themes: ['@docusaurus/theme-search-algolia'],
-    }),
+    },
 };
 
 module.exports = config;
