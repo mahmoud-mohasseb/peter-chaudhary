@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "peter-chaudhary",
-  tagline: "Dinosaurs are cool",
+  tagline: "Peter documentation and blogs",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "ignore",
@@ -63,6 +63,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        hideOnScroll: true,
         // title: 'peter-chaudhary',
         logo: {
           alt: "Peter",
@@ -71,8 +72,11 @@ const config = {
           // srcDark: `/logos/`,
           href: "/",
           target: "_self",
-          width: 35,
-          height: 25,
+          width: 50,
+          height: 50,
+          style: {
+            borderRadius: 20,
+          },
         },
 
         items: [
@@ -87,6 +91,7 @@ const config = {
             docId: "intro",
             position: "left",
             label: "Tutorial",
+            className: "NavBar",
           },
 
           {
@@ -94,7 +99,49 @@ const config = {
             position: "right",
           },
 
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "Blog", position: "left", className: "NavBar" },
+          // versioning
+          {
+            type: "docsVersionDropdown",
+            label: "version",
+            position: "left",
+            // dropdownItemsBefore: [
+            //   {
+            //     to: "https://peter-chaudhary.netlify.app/docs/versioning/5-6",
+            //     label: "v5-v6",
+            //     target: "_blank",
+            //   },
+            //   {
+            //     to: "https://peter-chaudhary.netlify.app/docs/versioning/6-7",
+            //     label: "v6-v7",
+            //     target: "_blank",
+            //   },
+            //   {
+            //     to: "https://peter-chaudhary.netlify.app/docs/versioning/7-8",
+            //     label: "v7-v8",
+            //     target: "_blank",
+            //   },
+            // ],
+            // dropdownItemsAfter: [
+            //   {
+            //     to: "https://peter-chaudhary.netlify.app/docs/versioning/5-6",
+            //     label: "v5-v6",
+            //     target: "_blank",
+            //   },
+            //   {
+            //     to: "https://peter-chaudhary.netlify.app/docs/versioning/6-7",
+            //     label: "v6-v7",
+            //     target: "_blank",
+            //   },
+            // ],
+            dropdownItemsAfter: [
+              {
+                to: "https://peter-chaudhary.netlify.app/docs/category/versiong",
+                label: "All versions",
+              },
+            ],
+            dropdownActiveClassDisabled: true,
+          },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",
@@ -102,7 +149,14 @@ const config = {
           },
           {
             href: "https://github.com/mahmoud-mohasseb/peter-chaudhary",
+            // logo menu
             className: "pseudo-icon github-icon",
+            position: "right",
+          },
+          {
+            href: "https://github.com/mahmoud-mohasseb/peter-chaudhary",
+            // logo menu
+            className: "facebook-pseudo-icon facebook-icon",
             position: "right",
           },
         ],
@@ -166,7 +220,6 @@ const config = {
             ],
           },
         ],
-
         copyright: `Copyright © ${new Date().getFullYear()} Peter-chaudhary, Inc.  All rights reserved.`,
       },
       prism: {
