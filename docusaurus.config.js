@@ -128,30 +128,13 @@ const config = {
             type: "search",
             position: "right",
           },
-
           { to: "/blog", label: "Blog", position: "left", className: "NavBar" },
           // versioning
           {
             type: "docsVersionDropdown",
             position: "left",
-            // dropdownItemsBefore: [
-            //   {
-            //     to: "https://peter-chaudhary.netlify.app/docs/category/version/5-6",
-            //     label: "v5-v6",
-            //     target: "_blank",
-            //   },
-            //   {
-            //     to: "https://peter-chaudhary.netlify.app/docs/category/version/6-7",
-            //     label: "v6-v7",
-            //     target: "_blank",
-            //   },
-            //   {
-            //     to: "https://peter-chaudhary.netlify.app/docs/category/version/7-8",
-            //     label: "v7-v8",
-            //     target: "_blank",
-            //   },
-            // ],
-            dropdownItemsAfter: [
+            to: "https://peter-chaudhary.netlify.app/docs/category/version",
+            dropdownItemsBefore: [
               {
                 to: "https://peter-chaudhary.netlify.app/docs/version/5-6",
                 label: "v5-v6",
@@ -169,12 +152,34 @@ const config = {
               },
             ],
             // dropdownItemsAfter: [
+            //   // {
+            //   //   to: "https://peter-chaudhary.netlify.app/docs/category/version",
+            //   //   label: "version",
+            //   //   // target: "_blank",
+            //   // },
+            //   {
+            //     to: "https://peter-chaudhary.netlify.app/docs/version/5-6",
+            //     label: "v5-v6",
+            //     target: "_blank",
+            //   },
+            //   {
+            //     to: "https://peter-chaudhary.netlify.app/docs/version/6-7",
+            //     label: "v6-v7",
+            //     target: "_blank",
+            //   },
+            //   {
+            //     to: "https://peter-chaudhary.netlify.app/docs/version/7-8",
+            //     label: "v7-v8",
+            //     target: "_blank",
+            //   },
+            // ],
+            // dropdownItemsAfter: [
             //   {
             //     to: "https://peter-chaudhary.netlify.app/docs/category/version",
             //     label: "All versions",
             //   },
             // ],
-            dropdownActiveClassDisabled: true,
+            // dropdownActiveClassDisabled: true,
           },
           {
             href: "https://github.com/facebook/docusaurus",
