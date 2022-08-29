@@ -80,7 +80,7 @@ const config = {
         appId: "QTL9CJGRBJ",
         // Public API key: it is safe to commit it
         apiKey: "4b9843adb7b877f76043faa053559c9c",
-        indexName: "peter",
+        indexName: "peter-chaudhary",
         // Optional: see doc section below
         contextualSearch: true,
       },
