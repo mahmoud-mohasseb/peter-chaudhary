@@ -77,9 +77,9 @@ const config = {
     {
       algolia: {
         // The application ID provided by Algolia
-        appId: "QTL9CJGRBJ",
+        appId: process.env.APPLICATION_ID,
         // Public API key: it is safe to commit it
-        apiKey: "9d48fe9cb84be7844f726f86cf382173",
+        apiKey: process.env.ALGOLIA_API_KEY,
 
         indexName: "peter-chaudhary",
         // Optional: see doc section below
