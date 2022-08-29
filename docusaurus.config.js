@@ -7,6 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "peter-chaudhary",
+  // themes: ["@docusaurus/theme-search-algolia"],
   tagline: "Peter documentation and blogs",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
@@ -28,7 +29,9 @@ const config = {
     defaultLocale: "en",
     locales: ["en", "hi"],
     localeConfigs: {
-      en: { label: "English" },
+      en: {
+        label: "English",
+      },
       hi: { label: "हिन्दी" },
     },
   },
@@ -45,6 +48,10 @@ const config = {
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
+        gtag: {
+          trackingID: "GTM-PT8NSPT",
+          anonymizeIP: true,
+        },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -55,6 +62,12 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+        },
       }),
     ],
   ],
@@ -63,15 +76,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 
     {
-      // algolia: {
-      //   appId: "JP2Q0HN2DE",
-      //   apiKey: "67f1a7e15197ecf88d4c85f39a2e1789",
-      //   indexName: "gotenberg",
-      //   contextualSearch: true,
-      // },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: "DFADYO9OQ1",
+        // Public API key: it is safe to commit it
+        apiKey: "91653f8207e4ab5d5a162ad4ee0c524f",
+        indexName: "peter",
+        // Optional: see doc section below
+        contextualSearch: true,
+      },
       announcementBar: {
         id: "support_us",
         content: `⭐️  &nbsp; If you like Peter-chaudhary, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/mahmoud-mohasseb/peter-chaudhary">GitHub</a>! &nbsp; ⭐️`,
+        backgroundColor: "#fafbfc",
+        textColor: "#091E42",
+        isCloseable: true,
       },
       navbar: {
         hideOnScroll: true,
@@ -241,7 +260,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      // themes: ['@docusaurus/theme-search-algolia'],
+      themes: ["@docusaurus/theme-search-algolia"],
     },
 };
 

@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Powered by React",
-    Svg: require("@site/static/img/undraw_business_chat_re_gg4h.svg").default,
+    Svg: require("@site/static/img/undraw_business_deal_re_up4u.svg").default,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can

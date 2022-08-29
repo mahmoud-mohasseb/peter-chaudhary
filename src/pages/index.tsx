@@ -39,7 +39,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        {/* <div className="Container">
+        {/* <div className="container">
           <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
