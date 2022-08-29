@@ -31,7 +31,7 @@
 }
 
 .NavBar {
-  font-family: "Cormorant";
+  /* font-family: "Cormorant"; */
   font-size: large;
   /* font-weight: 900; */
 }
@@ -140,4 +140,83 @@ html[data-theme="dark"] .facebook-icon::before {
 }
 .language ::before {
   content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEgM2gxMi4xMk03LjA2IDF2Mk0xMC40MiAxN2w0LjA0LTkuMzNMMTguNSAxN00xMS42NiAxNC4zM2g1LjZNMTAuODEgM1M5LjggNi45MiA3LjM1IDkuODhjLTIuNDQgMi45NS01IDQuNDUtNSA0LjQ1IiBzdHJva2U9IiM5MkEwQjMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTkuNzUgMTIuMzNzLTEuNDctMS4xMi0zLjAzLTMuMTJjLTEuNTYtMi0yLjM1LTMuNTQtMi4zNS0zLjU0IiBzdHJva2U9IiM5MkEwQjMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+");
+}
+
+/* footer */
+.footer__links {
+  width: 75%;
+  float: right;
+}
+
+.footer__bottom {
+  width: 25%;
+}
+
+.footer__bottom > div {
+  text-align: left;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #272822;
+  --ifm-footer-padding-vertical: 5rem;
+}
+
+.footer__logo {
+  width: 6.125rem;
+  height: 6.125rem;
+  border-radius: 10rem;
+}
+
+.footer__copyright {
+  font-size: 0.8em;
+  text-align: left;
+}
+
+.footer__copyright > a {
+  color: white;
+}
+
+/* flip cards */
+.Container {
+  margin: 30px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
 }

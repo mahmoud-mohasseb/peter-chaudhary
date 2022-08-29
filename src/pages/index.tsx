@@ -4,7 +4,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
-
+import Hero from "../components/HomepageFeatures/hero";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
@@ -35,9 +35,29 @@ export default function Home(): JSX.Element {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
+      <Hero />
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        {/* <div className="Container">
+          <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
+                <img
+                  src="https://divineyouwellness.com/blog/wp-content/uploads/2021/03/shutterstock_563564683-scaled.jpg"
+                  alt="Avatar"
+                  width="300px"
+                  height="300px"
+                />
+              </div>
+              <div className="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+        </div> */}
       </main>
     </Layout>
   );

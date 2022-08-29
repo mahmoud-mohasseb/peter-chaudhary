@@ -62,9 +62,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: "support_us",
+        content: `⭐️  &nbsp; If you like Peter-chaudhary, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/mahmoud-mohasseb/peter-chaudhary">GitHub</a>! &nbsp; ⭐️`,
+      },
       navbar: {
         hideOnScroll: true,
-        // title: 'peter-chaudhary',
+        title: "peter-chaudhary",
         logo: {
           alt: "Peter",
           // src: 'img/logo.svg',
@@ -175,13 +179,13 @@ const config = {
             "https://cdn.dribbble.com/users/60166/screenshots/17217488/media/02728f99e977931182d683b6792a17b1.jpg?compress=1&resize=400x300",
           alt: "",
           // height: 48,
-          width: 48,
-          style: {
-            display: "flex",
-            // marginBottom: 70,
-            borderRadius: 20,
-            // marginTop: 0,
-          },
+          // width: 48,
+          // style: {
+          //   display: "flex",
+          //   // marginBottom: 70,
+          //   borderRadius: 20,
+          //   // marginTop: 0,
+          // },
         },
         links: [
           {
