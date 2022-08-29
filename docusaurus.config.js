@@ -188,7 +188,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/mahmoud-mohasseb/peter-chaudhary",
+            href: "https://www.facebook.com/",
             // logo menu
             className: "facebook-pseudo-icon facebook-icon",
             position: "right",
