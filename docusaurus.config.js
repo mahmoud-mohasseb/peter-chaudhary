@@ -107,36 +107,40 @@ const config = {
             position: "left",
             // dropdownItemsBefore: [
             //   {
-            //     to: "https://peter-chaudhary.netlify.app/docs/versioning/5-6",
+            //     to: "https://peter-chaudhary.netlify.app/docs/category/version/5-6",
             //     label: "v5-v6",
             //     target: "_blank",
             //   },
             //   {
-            //     to: "https://peter-chaudhary.netlify.app/docs/versioning/6-7",
+            //     to: "https://peter-chaudhary.netlify.app/docs/category/version/6-7",
             //     label: "v6-v7",
             //     target: "_blank",
             //   },
             //   {
-            //     to: "https://peter-chaudhary.netlify.app/docs/versioning/7-8",
+            //     to: "https://peter-chaudhary.netlify.app/docs/category/version/7-8",
             //     label: "v7-v8",
             //     target: "_blank",
             //   },
             // ],
             // dropdownItemsAfter: [
             //   {
-            //     to: "https://peter-chaudhary.netlify.app/docs/versioning/5-6",
+            //     to: "https://peter-chaudhary.netlify.app/docs/category/version/5-6",
             //     label: "v5-v6",
             //     target: "_blank",
             //   },
             //   {
-            //     to: "https://peter-chaudhary.netlify.app/docs/versioning/6-7",
+            //     to: "https://peter-chaudhary.netlify.app/docs/category/version/6-7",
             //     label: "v6-v7",
+            //     target: "_blank",
+            //   },
+            //     to: "https://peter-chaudhary.netlify.app/docs/category/version/7-8",
+            //     label: "v7-v8",
             //     target: "_blank",
             //   },
             // ],
             dropdownItemsAfter: [
               {
-                to: "https://peter-chaudhary.netlify.app/docs/category/versiong",
+                to: "https://peter-chaudhary.netlify.app/docs/category/version",
                 label: "All versions",
               },
             ],
