@@ -2,7 +2,6 @@
 sidebar_position: 5
 ---
 
-
 # अपनी साइट तैनात करें
 
 Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
@@ -26,6 +25,7 @@ Test your production build locally:
 ```bash
 npm run serve
 ```
+
 <div>
 <h1>
 Here is tooltip
@@ -36,9 +36,6 @@ Here is tooltip
 
 </div>
 ```
-
-
-
 
 The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).
 
