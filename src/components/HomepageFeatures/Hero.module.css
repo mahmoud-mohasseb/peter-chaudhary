@@ -7,9 +7,11 @@
   vertical-align: center;
   position: relative;
   background: #f9f9f9;
+  color: black;
 }
 
 .hero h1 {
+  color: black;
   font-size: 3rem;
   padding-bottom: 1rem;
 }

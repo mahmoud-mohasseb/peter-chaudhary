@@ -15,15 +15,15 @@ const config = {
   // favicon: 'img/favicon.ico',
   favicon:
     "https://cdn.dribbble.com/users/60166/screenshots/17217488/media/02728f99e977931182d683b6792a17b1.jpg?compress=1&resize=400x300",
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Peter-chaudhary",
+  projectName: "https://peter-chaudhary.netlify.app/",
 
   // Even if you don't use internalization, you can uose this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
+
   i18n: {
     defaultLocale: "en",
     locales: ["en", "hi"],
@@ -61,7 +61,14 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+
     ({
+      // algolia: {
+      //   appId: "JP2Q0HN2DE",
+      //   apiKey: "67f1a7e15197ecf88d4c85f39a2e1789",
+      //   indexName: "gotenberg",
+      //   contextualSearch: true,
+      // },
       announcementBar: {
         id: "support_us",
         content: `⭐️  &nbsp; If you like Peter-chaudhary, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/mahmoud-mohasseb/peter-chaudhary">GitHub</a>! &nbsp; ⭐️`,
