@@ -7,7 +7,6 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "peter-chaudhary",
-  // themes: ["@docusaurus/theme-search-algolia"],
   tagline: "Peter documentation and blogs",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
@@ -80,7 +79,7 @@ const config = {
         // The application ID provided by Algolia
         appId: "DFADYO9OQ1",
         // Public API key: it is safe to commit it
-        apiKey: "91653f8207e4ab5d5a162ad4ee0c524f",
+        apiKey: "4e9544dd5847c2aec21e631b4ffc218f",
         indexName: "peter",
         // Optional: see doc section below
         contextualSearch: true,
