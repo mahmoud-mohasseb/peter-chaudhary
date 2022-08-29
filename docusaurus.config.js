@@ -103,7 +103,6 @@ const config = {
           // versioning
           {
             type: "docsVersionDropdown",
-            label: "version",
             position: "left",
             // dropdownItemsBefore: [
             //   {
@@ -122,28 +121,29 @@ const config = {
             //     target: "_blank",
             //   },
             // ],
-            // dropdownItemsAfter: [
-            //   {
-            //     to: "https://peter-chaudhary.netlify.app/docs/category/version/5-6",
-            //     label: "v5-v6",
-            //     target: "_blank",
-            //   },
-            //   {
-            //     to: "https://peter-chaudhary.netlify.app/docs/category/version/6-7",
-            //     label: "v6-v7",
-            //     target: "_blank",
-            //   },
-            //     to: "https://peter-chaudhary.netlify.app/docs/category/version/7-8",
-            //     label: "v7-v8",
-            //     target: "_blank",
-            //   },
-            // ],
             dropdownItemsAfter: [
               {
-                to: "https://peter-chaudhary.netlify.app/docs/category/version",
-                label: "All versions",
+                to: "https://peter-chaudhary.netlify.app/docs/category/version/5-6",
+                label: "v5-v6",
+                target: "_blank",
+              },
+              {
+                to: "https://peter-chaudhary.netlify.app/docs/category/version/6-7",
+                label: "v6-v7",
+                target: "_blank",
+              },
+              {
+                to: "https://peter-chaudhary.netlify.app/docs/category/version/7-8",
+                label: "v7-v8",
+                target: "_blank",
               },
             ],
+            // dropdownItemsAfter: [
+            //   {
+            //     to: "https://peter-chaudhary.netlify.app/docs/category/version",
+            //     label: "All versions",
+            //   },
+            // ],
             dropdownActiveClassDisabled: true,
           },
           {
