@@ -127,7 +127,7 @@ const config = {
             type: "doc",
             docId: "category/intro",
             position: "left",
-            label: "apiSidebar",
+            label: "ApiSidebar",
             className: "NavBar",
           },
           {
