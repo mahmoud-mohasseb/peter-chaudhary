@@ -123,28 +123,20 @@ const config = {
             label: "Tutorial",
             className: "NavBar",
           },
-          // {
-          //   type: "doc",
-          //   docId: "training/peter-chaudhary",
-          //   position: "left",
-          //   label: "category",
-          //   className: "NavBar",
-          // },
-
           {
             type: "search",
             position: "right",
           },
           { to: "/blog", label: "Blog", position: "left", className: "NavBar" },
           {
-            to: "/tutorial2",
+            to: "/tutorial2/",
             // activeBasePath: "blog",
             label: "Tutorial2",
             position: "left",
             className: "NavBar",
           },
           {
-            to: "/tutorial3",
+            to: "/tutorial3/",
             activeBasePath: "tutorial3",
             label: "Tutorial3",
             position: "left",
