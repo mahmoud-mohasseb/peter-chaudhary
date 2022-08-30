@@ -21,8 +21,7 @@ const sidebars = {
       dirName: ".", // '.' means the current docs folder
     },
   ],
-  // apiSidebar: ["/commonDoc"],
-
+  apiSidebar: ["category/cat/commonDoc", "category/intro"],
   // But you can create a sidebar manually
 };
 

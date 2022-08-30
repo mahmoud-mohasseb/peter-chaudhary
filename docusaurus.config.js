@@ -124,6 +124,13 @@ const config = {
             className: "NavBar",
           },
           {
+            type: "doc",
+            docId: "category/intro",
+            position: "left",
+            label: "apiSidebar",
+            className: "NavBar",
+          },
+          {
             type: "search",
             position: "right",
           },
