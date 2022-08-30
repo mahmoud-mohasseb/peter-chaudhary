@@ -75,16 +75,16 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 
     {
-      algolia: {
-        // The application ID provided by Algolia
-        appId: "QTL9CJGRBJ",
-        // Public API key: it is safe to commit it
-        apiKey: process.env.ALGOLIA_API_KEY,
+      // algolia: {
+      //   // The application ID provided by Algolia
+      //   appId: "QTL9CJGRBJ",
+      //   // Public API key: it is safe to commit it
+      //   apiKey: process.env.ALGOLIA_API_KEY,
 
-        indexName: "peter-chaudhary",
-        // Optional: see doc section below
-        contextualSearch: true,
-      },
+      //   indexName: "peter-chaudhary",
+      //   // Optional: see doc section below
+      //   contextualSearch: true,
+      // },
       announcementBar: {
         id: "support_us",
         content: `⭐️  &nbsp; If you like Peter-chaudhary, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/mahmoud-mohasseb/peter-chaudhary">GitHub</a>! &nbsp; ⭐️`,
@@ -123,12 +123,33 @@ const config = {
             label: "Tutorial",
             className: "NavBar",
           },
+          // {
+          //   type: "doc",
+          //   docId: "training/peter-chaudhary",
+          //   position: "left",
+          //   label: "category",
+          //   className: "NavBar",
+          // },
 
           {
             type: "search",
             position: "right",
           },
           { to: "/blog", label: "Blog", position: "left", className: "NavBar" },
+          {
+            to: "/tutorial2",
+            // activeBasePath: "blog",
+            label: "Tutorial2",
+            position: "left",
+            className: "NavBar",
+          },
+          {
+            to: "/tutorial3",
+            activeBasePath: "tutorial3",
+            label: "Tutorial3",
+            position: "left",
+            className: "NavBar",
+          },
           // versioning
           {
             type: "docsVersionDropdown",
@@ -209,14 +230,6 @@ const config = {
           srcDark:
             "https://cdn.dribbble.com/users/60166/screenshots/17217488/media/02728f99e977931182d683b6792a17b1.jpg?compress=1&resize=400x300",
           alt: "",
-          // height: 48,
-          // width: 48,
-          // style: {
-          //   display: "flex",
-          //   // marginBottom: 70,
-          //   borderRadius: 20,
-          //   // marginTop: 0,
-          // },
         },
         links: [
           {

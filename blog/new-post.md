@@ -1,5 +1,5 @@
 ---
-slug: mahmoud ahmed 
+slug: mahmoud ahmed
 title: auther in document
 authors: mahmoud
 tags: [hello, docusaurus]
