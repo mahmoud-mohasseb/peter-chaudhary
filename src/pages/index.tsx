@@ -6,6 +6,7 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Hero from "../components/HomepageFeatures/hero";
 import styles from "./index.module.css";
+import SearchBar from "@site/src/theme/SearchBar/index";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -38,6 +39,7 @@ export default function Home(): JSX.Element {
       <Hero />
       <HomepageHeader />
       <main>
+        <SearchBar />
         <HomepageFeatures />
         {/* <div className="container">
           <div className="flip-card">
