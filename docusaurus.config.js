@@ -10,8 +10,8 @@ const config = {
   tagline: "Peter documentation and blogs",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: "ignore",
+  onBrokenMarkdownLinks: "ignore",
   // favicon: 'img/favicon.ico',
   favicon:
     "https://cdn.dribbble.com/users/60166/screenshots/17217488/media/02728f99e977931182d683b6792a17b1.jpg?compress=1&resize=400x300",
@@ -137,7 +137,6 @@ const config = {
           { to: "/blog", label: "Blog", position: "left", className: "NavBar" },
           {
             to: "/tutorial2/",
-            // activeBasePath: "blog",
             label: "Tutorial2",
             position: "left",
             className: "NavBar",
