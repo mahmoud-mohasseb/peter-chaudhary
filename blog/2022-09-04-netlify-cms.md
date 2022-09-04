@@ -6,7 +6,7 @@ tags:
 authors:
   - title: web developer
     name: Mahmoud Ahmed
-    url: https://peter-chaudhary.netlify.app/
+    url: https://avatars.githubusercontent.com/u/66387837?v=4
     imageUrl: https://avatars.githubusercontent.com/u/66387837?v=4
 ---
 Down here netlify CMS dashboard simplifying blogging ...
