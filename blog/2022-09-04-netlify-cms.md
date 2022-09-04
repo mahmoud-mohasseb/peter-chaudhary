@@ -4,7 +4,7 @@ slug: cms
 tags:
   - cms
 authors:
-  - title: web developer
+  - title: Web developer
     name: Mahmoud Ahmed
     url: https://avatars.githubusercontent.com/u/66387837?v=4
     imageUrl: https://avatars.githubusercontent.com/u/66387837?v=4
