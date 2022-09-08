@@ -25,7 +25,10 @@ const sidebars = {
    }
   ],
   apiSidebar: ["category/cat/commonDoc", "category/intro"],
+//   tutorial4: ["category/cat/commonDoc", "category/intro"],
   // But you can create a sidebar manually
 };
+
+
 
 module.exports = sidebars;
