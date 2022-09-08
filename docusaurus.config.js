@@ -130,24 +130,31 @@ const config = {
             label: "ApiSidebar",
             className: "NavBar",
           },
+          {
+            type: "doc",
+            docId: "docs2/intro",
+            position: "left",
+            label: "tutorial4",
+            className: "NavBar",
+          },
           // {
           //   type: "search",
           //   position: "right",
           // },
           { to: "/blog", label: "Blog", position: "left", className: "NavBar" },
-          {
-            to: "/tutorial2/",
-            label: "Tutorial2",
-            position: "left",
-            className: "NavBar",
-          },
-          {
-            to: "/tutorial3/",
-            activeBasePath: "tutorial3",
-            label: "Tutorial3",
-            position: "left",
-            className: "NavBar",
-          },
+          // {
+          //   to: "/tutorial2/",
+          //   label: "Tutorial2",
+          //   position: "left",
+          //   className: "NavBar",
+          // },
+          // {
+          //   to: "/tutorial3/",
+          //   activeBasePath: "tutorial3",
+          //   label: "Tutorial3",
+          //   position: "left",
+          //   className: "NavBar",
+          // },
           // versioning
           {
             type: "docsVersionDropdown",
