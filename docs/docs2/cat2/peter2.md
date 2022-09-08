@@ -3,7 +3,7 @@ displayed_sidebar: tutorial4
 sidebar_position: 1
 ---
 
-# Congratulations!
+# Peter2!
 
 You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
 

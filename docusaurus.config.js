@@ -134,7 +134,7 @@ const config = {
             type: "doc",
             docId: "docs2/intro",
             position: "left",
-            label: "tutorial4",
+            label: "docs2",
             className: "NavBar",
           },
           // {

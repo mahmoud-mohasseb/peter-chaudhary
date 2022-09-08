@@ -23,6 +23,7 @@ const sidebars = {
     {},
   ],
   apiSidebar: ["category/cat/commonDoc", "category/intro"],
+  // apiSidebar: ["category/cat/commonDoc", "category/intro"],
   tutorial4: [
     "docs2/intro",
     "docs2/cat/peter",

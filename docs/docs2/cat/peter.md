@@ -7,7 +7,7 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import styles from './styles.module.css';
 
-# Congratulations!
+# Peter!
 
 You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
 
