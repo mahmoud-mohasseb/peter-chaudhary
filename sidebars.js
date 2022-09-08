@@ -25,9 +25,9 @@ const sidebars = {
   apiSidebar: ["category/cat/commonDoc", "category/intro"],
   tutorial4: [
     "docs2/intro",
-    // "docs2/cat/peter",
-    // "docs2/cat/peter3",
-    // "docs2/cat2/peter2",
+    "docs2/cat/peter",
+    "docs2/cat/peter3",
+    "docs2/cat2/peter2",
   ],
   // But you can create a sidebar manually
 };
