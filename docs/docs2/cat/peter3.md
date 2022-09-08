@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+displayed_sidebar: tutorial4
+sidebar_position: 1
 ---
 
 # Congratulations!

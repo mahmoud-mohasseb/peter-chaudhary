@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: tutorial4
 sidebar_position: 1
 ---
 
