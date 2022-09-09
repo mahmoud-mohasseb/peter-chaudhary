@@ -87,7 +87,7 @@ const config = {
       // },
       announcementBar: {
         id: "support_us",
-        content: `⭐️  &nbsp; If you like Peter-chaudhary, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/mahmoud-mohasseb/peter-chaudhary">GitHub</a>! &nbsp; ⭐️`,
+        content: `🇮🇳  &nbsp; If you like Peter-chaudhary, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/mahmoud-mohasseb/peter-chaudhary">GitHub</a>! &nbsp; 🇮🇳`,
         backgroundColor: "#fafbfc",
         textColor: "#091E42",
         isCloseable: true,

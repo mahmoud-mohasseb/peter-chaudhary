@@ -26,15 +26,15 @@ Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://
 - Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
 
 <Tabs>
-  <TabItem value="apple" label="Apple" default>
-    This is an apple 🍎
-  </TabItem>
-  <TabItem value="orange" label="Orange">
-    This is an orange 🍊
-  </TabItem>
-  <TabItem value="banana" label="Banana">
-    This is a banana 🍌
-  </TabItem>
+<TabItem value="apple" label="Apple" default>
+This is an apple 🍎
+</TabItem>
+<TabItem value="orange" label="Orange">
+This is an orange 🍊
+</TabItem>
+<TabItem value="banana" label="Banana">
+This is a banana 🍌
+</TabItem>
 </Tabs>
 
 <Tabs groupId="operating-systems">
